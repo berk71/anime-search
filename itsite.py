@@ -1,5 +1,6 @@
 from flask import Flask, render_template_string, request
 from duckduckgo_search import DDGS
+from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
